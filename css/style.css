@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background: url(../assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+}
+
+.fa-bars{
+    display: none;
+}
+
+            /* navbar */
+
+nav{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 470px;
+    border-bottom: 2px solid #ffffff;
+    padding:  0;
+}
+
+.logo-img{
+    float: left;
+    width: 10px;
+    margin-left: 50px;
+}
+
+nav .nav-items{
+    display: flex;
+   /* padding-left: 260px; */
+   gap: 50px;
+   margin-right: 40px;
+}
+
+nav .nav-item{
+    list-style-type: none;
+    display: flex;
+    color: #FFFFFF;
+    gap: 30px;
+    align-items: center;
+    font-weight: 500;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+nav .nav-item:hover{ 
+    color: #000000;
+    transform: scale(1.2);
+}
+
+nav .callus{
+    margin-right: 20px;
+}
+
+nav .callus img{
+    margin-top: 30px;
+    margin-left: -40px;
+    width: 30px;
+}
+
+nav .callus h3{
+    margin-top: -50px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+nav .callus h3:hover{
+    color: #420097;
+    transform: scale(1.1);
+}
+
+nav .callus p{
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+            /* hero section */
+
+.hero .hero-left{
+    margin-left: 50px;
+    margin-top: 60px;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.hero .hero-left button{
+    background: none;
+    border: 2px solid #ffffff;
+    padding: 20px 60px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 50%;
+    cursor: pointer;
+}
+
+.hero .hero-left button:hover{
+    background-color: #fff;
+    color: #000000;
+    font-weight: 600;
+}
+
+.hero .hero-right{
+    position: relative;
+}
+.hero .hero-right .square:first-child{
+    position: absolute;
+    right: 0px;
+    background-color: rgba(255,255,255,.4);
+    margin-bottom: 20px;
+    width: 250px;
+    padding: 10px 20px;
+    height: 135px;
+}
+
+.hero .hero-right .square:last-child{
+    background-color: rgba(255,255,255,.4);
+    margin-bottom: 20px;
+    position: absolute;
+    right: 0px;
+    width: 250px;
+    padding: 10px 20px;
+    height: 150px;
+}
+
+.hero .hero-right .square:nth-child(1){
+    right: 100px;
+    top: -250px;
+}
+
+.hero .hero-right .square:nth-child(2){
+    left: 600px;
+    top: -20px;
+}
+
+.hero .hero-right .square:first-child .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    height: 40px;
+    width: 80px;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.hero .hero-right .square:first-child .icon img{
+    width: 30px;
+}
+
+.hero .hero-right .square:last-child .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    height: 40px;
+    width: 80px;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.hero .hero-right .square:last-child .icon img{
+    width: 30px;
+}
+
+.hero .hero-right .square:first-child .circle-line{
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 155px;
+    left: 220px;
+    height: 70px;
+    width: 2px;
+}
+
+.hero .hero-right .square:last-child .circle-line{
+    background-color: #FFFFFF;
+    position: absolute;
+    right: -36px;
+    top: 20px;
+    transform: rotate(90deg);
+    height: 70px;
+    width: 2px;
+}
+
+.hero .hero-right .square:first-child .circle-line .circle{
+    position: absolute;
+    bottom: 0;
+    left: -8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+}
+
+.hero .hero-right .square:last-child .circle-line .circle{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: -8px;
+    border-radius: 50px;
+    background-color: #ffffff;
+}
+
+.joinnow{
+    display: none;
+}
+
+            /* Media Queries */
+
+@media screen and (max-width: 1200px){
+    body{
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat; 
+        background-size: cover;
+    }
+
+    .logo-img{
+        width: 4px;
+    }
+
+    .callus{
+        display: none;
+    }
+
+    nav .nav-items{
+        display: flex;
+        gap: 50px;
+        margin-right: 0px;
+    }
+ 
+    nav .nav-item:first-child{
+        display: none;
+    }
+ 
+    nav .nav-item:nth-child(2)::before{
+        content: "Home";
+        margin-right: 30px;
+    }
+
+    .hero .hero-right .square:first-child{
+        position: absolute;
+        right: 30px;
+    }
+
+    .hero .hero-right .square:last-child{
+        position: absolute;
+        right: 100px;
+        width: 230px;
+    }
+
+    .hero .hero-left{
+        margin-left: 5%;
+        margin-top: 10%;
+        font-size: 30px;
+    }
+    .joinnow{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px){
+    nav .nav-item{
+        display: none;
+    }  
+
+    nav .callus{
+        display: block;
+    }
+
+    .logo-img{
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+
+    .logo-img img{
+        width: 130px;
+        cursor: pointer;
+
+    }
+    nav .fa-solid.fa-bars{
+        display: none;
+    } 
+
+    .hero .hero-right .square:first-child{
+        width: 120px;
+        height: 190px;
+        margin-bottom: 10px;
+        padding-left: 20px;
+    }
+
+    .hero .hero-right .square:last-child{
+        bottom: -120%;
+        left: 200px;
+        width: 220px;
+        height: 140px;
+    }
+
+    .hero .hero-right .square p{
+        color: #ffffff;
+    }
+    
+    .hero .hero-left button{
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    .hero .hero-left button:hover{
+        background-color: #fff;
+        color: #000000;
+        font-weight: 600;
+    }
+
+    .hero .hero-left{
+        margin-top: 0px;
+        font-size: 25px;
+        padding: 50px;
+        margin-left: -10px;
+    }
+
+    .hero .hero-left h1{
+        margin-top: -30px;
+    }
+
+    .circle-line{
+        display: none;
+    }
+
+    .joinnow{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    nav .nav-item{
+        display: none;
+    }  
+
+    nav .callus{
+        display: none;
+    }
+
+    .logo-img{
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+
+    .logo-img img{
+        width: 100px;
+        cursor: pointer;
+    }
+
+    nav .fa-solid.fa-bars{
+        display: block;
+        padding: 20px;
+        position: absolute;
+        right: 0;
+        color: #ffffff;
+        font-size: 30px;
+    }
+
+    .hero .hero-right .square:first-child{
+        width: 116px;
+        left: 0px;
+        top: 60%;
+        height: 190px;
+        margin-left: 20px;
+    }
+
+    .hero .hero-right .square:last-child{
+        top: 150px;
+        width: 120px;
+        height: 190px;
+    }
+
+    .hero .hero-left button{
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    .hero .hero-left button:hover{
+        background-color: #fff;
+        color: #000000;
+        font-weight: 600;
+    }
+
+    .hero .hero-left{
+        margin-top: 60px;
+        font-size: 18px;
+        padding: 50px;
+        margin-left: -10px;
+    }
+
+    .circle-line{
+        display: none;
+    }
+
+    .joinnow{
+      display: block;
+      position: absolute;
+      bottom: 80px;
+      left: 40px;
+      background: none;
+      border: 2px solid #ffffff;
+      padding: 10px 20px;
+      font-size: 12px;
+      border-radius: 50px;
+      text-transform: uppercase;
+      color: #ffffff;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .joinnow:hover{
+      background-color: #fff;
+      color: #000000;
+      font-weight: 600;
+    }
+
+}
