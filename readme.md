@@ -16,15 +16,15 @@
 ***
 ## Description
 
-This project [Interior Design Landing Page]() was built using Semantic HTML and CSS. The main aim was to make the webpage responsive for all major devices. While building this project I learnt about **pseudo classes** mainly :first-child and :last-child and also about flexbox properties and handling child of same divs on the webpage. The Project was completed under guidance of [Hitesh Choudhary](https://github.com/hiteshchoudhary), CTO Ineuron
+This project [Interior Design Landing Page](https://interior-home-page.netlify.app/) was built using Semantic HTML and CSS. The main aim was to make the webpage responsive for all major devices. While building this project I learnt about **pseudo classes** mainly :first-child and :last-child and also about flexbox properties and handling child of same divs on the webpage. The Project was completed under guidance of [Hitesh Choudhary](https://github.com/hiteshchoudhary), CTO Ineuron
 
 ***
 
 ### Links for Project
 
-* [LIVE Project Link]()
+* [LIVE Project Link](https://interior-home-page.netlify.app/)
 
-* [Youtube Video Demo]()
+* [Youtube Video Demo](https://youtu.be/GyOmVp-HF2M)
 
 * [Source Code](https://github.com/ShubhamSingh03/InteriorDesignLandingPage)
 
@@ -101,17 +101,17 @@ This project [Interior Design Landing Page]() was built using Semantic HTML and 
 
 ### Checkout Portfolio & Other Projects
 
-#### [Personal Portfolio]()
+#### [Personal Portfolio](https://shubhambhoj.in/)
 
 
-#### [Findcoder Profile]()
+#### [Findcoder Profile](https://www.findcoder.io/u/shubham_singh)
 ***
 
 ### Connect with Me
 * [Mailto](mailto:shubhambhoj3@gmail.com)
-* [LinkedIn]()
-* [Github]()
-* [Findcoder]()
+* [LinkedIn](https://www.linkedin.com/in/shubham-singh-b122b7171/)
+* [Github](https://github.com/ShubhamSingh03)
+* [Findcoder](https://www.findcoder.io/u/shubham_singh)
 ***
 ***
 [go to top](#interior-design-landing-page)
